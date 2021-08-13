@@ -33,7 +33,7 @@ app.get('/auth/:id', (req, res) => {
             console.log(err);
         }
         else{
-            res.redirect('http://localhost:3000/sign')
+            res.redirect('http://rkhsyidjh.herokuapp.com/sign')
         }
 
     })
